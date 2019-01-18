@@ -13,3 +13,7 @@ This is a project with some Demos to configure [datadog](https://www.datadoghq.c
 terraform init
 terraform apply -var "datadog_api_key=xxxxxxxxxxxx" -var "datadog_app_key=xxxxxxxxxxxx"
 ```
+
+## Reference
+
+- [Terraform Official Doc Page: Datadog Provider ] https://www.terraform.io/docs/providers/datadog/index.html
