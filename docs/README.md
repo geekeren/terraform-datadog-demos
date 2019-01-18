@@ -16,4 +16,4 @@ terraform apply -var "datadog_api_key=xxxxxxxxxxxx" -var "datadog_app_key=xxxxxx
 
 ## Reference
 
-- [Terraform Official Doc Page: Datadog Provider ] https://www.terraform.io/docs/providers/datadog/index.html
+- [Terraform Official Doc Page: Datadog Provider ](https://www.terraform.io/docs/providers/datadog/index.html)
