@@ -1,0 +1,7 @@
+.terraform
+# Direnv files
+.envrc
+
+# Compiled files
+*.tfstate
+*.tfstate.backup
