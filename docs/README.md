@@ -14,6 +14,11 @@ terraform init
 terraform apply -var "datadog_api_key=xxxxxxxxxxxx" -var "datadog_app_key=xxxxxxxxxxxx"
 ```
 
+## How to get datadog_api_key & datadog_app_key
+
+
+
 ## Reference
 
 - [Terraform Official Doc Page: Datadog Provider ](https://www.terraform.io/docs/providers/datadog/index.html)
+- [Export DataDog configuration to Terraform](https://github.com/amnk/dd2tf)
