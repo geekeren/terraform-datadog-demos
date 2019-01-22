@@ -14,7 +14,7 @@ terraform init
 terraform apply -var "datadog_api_key=xxxxxxxxxxxx" -var "datadog_app_key=xxxxxxxxxxxx"
 ```
 
-## Migration from existing monitors/dashboards etc. created by GUI
+## Migration from existing datadog modules created by GUI
 Probably you already have some monitors of datadog configured by GUI before you plan to manage monitor as code.  it may be a boring job to write the monitoring code one by one, fortunately there is a tool [dd2tf](https://github.com/amnk/dd2tf) to **generate terraform code from existing monitors/dashboards directly**. It will be really helpful when we are not familiar with datadog's grammar.
 
 
