@@ -6,3 +6,6 @@ provider "datadog" {
 module "monitor" {
   source = "./monitor"
 }
+module "dashboard" {
+  source = "./dashboard"
+}
